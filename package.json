@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://frreri.github.io/f25d-react-task2",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open --port 3000",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
