@@ -1,6 +1,6 @@
 .side-bar {
   grid-area: side;
-  background-color: #3b4252;
+  background-color: #2e3440;
   display: flex;
   justify-content: center;
   padding: 1rem;

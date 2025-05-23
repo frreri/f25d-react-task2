@@ -11,3 +11,5 @@ Live preview [Click here!](https://frreri.github.io/f25d-react-task2/)
 ## About this project
 
 I've organized the components in a way that separates bigger parts, so the navbar related components are under the directories components -> navbar, and the sidebar related components are under components -> sidebar etc.
+
+<b>In this project i have used both regular CSS-styling and tailwind</b>
