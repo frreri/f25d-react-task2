@@ -1,0 +1,21 @@
+.nav-item {
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.nav-item i {
+  margin-right: 4px;
+  color: #5e81ac;
+}
+
+.nav-item:link,
+.nav-item:visited,
+.nav-item:active {
+  color: #eceff4;
+}
+.nav-item:hover {
+  background-color: #e5e9f0;
+  color: #2e3440;
+}

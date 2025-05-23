@@ -1,0 +1,42 @@
+.nav-bar {
+  grid-area: nav;
+  background-color: #2e3440;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.nav-header {
+  font-size: 2rem;
+  margin: 4px;
+}
+
+.nav-menu {
+  background-color: #2e3440;
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* .nav-menu--desktop {
+} */
+
+.nav-menu--mobile {
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  top: 3.9rem;
+  right: 0;
+  width: 100%;
+  height: 50vh;
+  padding-bottom: 2rem;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}

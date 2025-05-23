@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #4c566a;
+  color: #eceff4;
+}
+
+#root {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: min(250px, 33%) 1fr;
+  grid-template-rows: 4rem 1fr;
+  grid-template-areas:
+    "nav nav"
+    "side main-content";
+}
+
+@media only screen and (max-width: 540px) {
+  #root {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav"
+      "content";
+  }
+}
